@@ -34,6 +34,17 @@
 
 ## v-model 的实现原理及其如何自定义 v-model
 
+```js
+// 原理：
+// => src\platforms\web\compiler\directives\model.js
+// => v-model="xxx" 相当于 :value="xxx" + @input="xxx=$event.target.value" 的语法糖
+// => 添加 prop 与事件处理程序
+addProp(el, 'value', `(${value})`)
+addHandler(el, event, code, null, true)
+
+// 自定义：修改 prop 及要触发的事件即可
+```
+
 ## 组件中的 data 为什么是一个函数
 
 ## Vue 组件间如何通信
