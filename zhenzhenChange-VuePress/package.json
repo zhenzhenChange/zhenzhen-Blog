@@ -1,0 +1,18 @@
+{
+  "name": "zhenzhen-change-blog",
+  "version": "1.0.0",
+  "author": "zhenzhenChange",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "1.5.4",
+    "vuepress-theme-reco": "1.5.7"
+  },
+  "dependencies": {
+    "vue-class-component": "^7.2.3"
+  },
+  "description": "Awakening The Unknown ..."
+}
