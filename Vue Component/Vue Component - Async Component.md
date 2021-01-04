@@ -69,7 +69,7 @@ const router = new VueRouter({
   >
   > src\core\global-api\assets.js
   > ![Async-Component](./images/componentDefinition.png)
-
+  >
   > 第一次解析异步组件时，同步代码执行完毕，返回的是 undefined，此时将创建一个空注释占位符节点用来给该异步组件占位。
 
 - 有限状态机

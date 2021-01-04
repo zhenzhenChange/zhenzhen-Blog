@@ -1,6 +1,6 @@
 module.exports = {
   // 网站配置
-  title: 'zhenzhenChange - 觉醒未知',
+  title: 'zhenzhenChange',
   locales: { '/': { lang: 'zh-CN' } },
   description: 'Awakening The Unknown ...',
   head: [
